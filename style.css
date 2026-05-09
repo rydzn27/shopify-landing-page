@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.announcement-bar p {
+    text-align: center;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    border: solid blue;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
