@@ -31,3 +31,90 @@
 .nav-links li a {
     text-decoration: none;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-image {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.hero-description {
+    max-width: 600px;
+}
+
+.features {
+    display: flex;
+    gap: 40px;
+    flex: wrap;
+    justify-content: center;
+}
+
+.feature-card {
+    max-width: 250px;
+    
+}
+
+.feature-card p {
+    margin-top: 10px;
+}
+
+.showcase {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-image {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.showcase-features li {
+    list-style: none;
+}
+
+.showcase-description {
+    max-width: 600px;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero,
+    .features,
+    .showcase {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .showcase {
+        text-align: center;
+    }
+
+    
+
+}
