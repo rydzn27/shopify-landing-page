@@ -4,9 +4,39 @@
     box-sizing: border-box;
 }
 
+section {
+    padding: 80px 20px;
+}
+
+.hero {
+    background-color: #f8f9fa;
+}
+
+.features {
+    background-color: white;
+}
+
+.showcase {
+    background-color: #e9ecef;
+}
+
+.pricing {
+    background-color: #90caf9;
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+}
+
 .announcement-bar p {
     text-align: center;
     padding: 10px;
+    background-color: #212529;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 .header {
@@ -14,7 +44,6 @@
     justify-content: space-between;
     align-items: center;
     padding-right: 30px;
-    border: solid blue;
 }
 
 .logo {
@@ -59,12 +88,15 @@
 .features {
     display: flex;
     gap: 40px;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .feature-card {
-    max-width: 250px;
+    max-width: 300px;
+    
+    padding: 25px;
+    border-radius: 10px;
     
 }
 
@@ -95,6 +127,9 @@
 
 .showcase-features li {
     list-style: none;
+    display: flex;
+    
+    gap: 10px;
 }
 
 .showcase-description {
@@ -126,6 +161,8 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    border-radius: 10px;
+    padding: 60px 20px;
 }
 
 .old-price {
@@ -153,11 +190,18 @@
     gap: 15px;
 }
 
+
+
+
 .cta-banner {
     display: flex;
     gap: 15px;
     justify-content: center;
     align-items: center;
+    background-color: #4dabf7;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
 }
 
 .cta-banner-button {
@@ -197,6 +241,10 @@
     text-align: center;
 }
 
+button:hover {
+    opacity: 0.9;
+}
+
 
 
 @media (max-width: 768px) {
@@ -208,14 +256,20 @@
     .footer-container {
         flex-direction: column;
         align-items: center;
+        text-align: left;
     }
 
-    .showcase {
-        text-align: center;
+
+    .showcase-features {
+        padding: 0;
+        margin: 0;
+        
+        
     }
 
-    .testimonial-avatar {
-        align-self: center;
+    .testimonial-content {
+        width: 100%;
+        max-width: 350px;
     }
 
 }
