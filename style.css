@@ -481,6 +481,7 @@ button:hover {
     .testimonial-content {
         width: 100%;
         max-width: 350px;
+        gap: 30px;
     }
 
    
