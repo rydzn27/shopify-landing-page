@@ -165,6 +165,10 @@ section {
     padding: 60px 20px;
 }
 
+.price-group {
+    text-align: center;
+}
+
 .old-price {
     text-decoration: line-through;
     opacity: 0.7;
@@ -190,11 +194,13 @@ section {
     gap: 15px;
 }
 
-.faq-question,
-.faq-answer {
+.faq-item {
     width: 100%;
     max-width: 300px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 
