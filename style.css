@@ -190,7 +190,12 @@ section {
     gap: 15px;
 }
 
-
+.faq-question,
+.faq-answer {
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+}
 
 
 .cta-banner {
